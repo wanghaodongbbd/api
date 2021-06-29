@@ -10,9 +10,7 @@ public class Test {
         System.out.println(run);
         JSONObject jsonObject = JSONObject.parseObject(run);
         System.out.println(jsonObject);
-
         System.out.println(jsonObject.get("status"));
-
         System.out.println(jsonObject.get("lives"));
         jsonObject.get("lives");
     }
