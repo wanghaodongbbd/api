@@ -13,5 +13,6 @@ public class Test {
         System.out.println(jsonObject.get("status"));
         System.out.println(jsonObject.get("lives"));
         jsonObject.get("lives");
+        jsonObject.get("lives");
     }
 }
